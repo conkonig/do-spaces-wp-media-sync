@@ -26,7 +26,7 @@
   ],
   "require": {
     "php": ">=5.3.3",
-    "katzgrau/klogger": "^1.2.2",
+    "katzgrau/klogger": "dev-master",
     "league/flysystem-aws-s3-v3": "^1.0",
     "composer/installers": "^1.0"
   }
