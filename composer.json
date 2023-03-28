@@ -1,5 +1,5 @@
 {
-  "name": "whynow/do-spaces-wp-media-sync",
+  "name": "custom-plugin/do-spaces-wp-media-sync",
   "type": "wordpress-plugin",
   "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
   "keywords": [
@@ -27,7 +27,7 @@
   "require": {
     "php": ">=5.3.3",
     "katzgrau/klogger": "^1.2.1",
-    "league/flysystem-aws-s3-v3": "^2.0",
+    "league/flysystem-aws-s3-v3": "^3.0",
     "composer/installers": "^1.0"
   }
 }
