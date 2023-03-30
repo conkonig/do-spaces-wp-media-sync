@@ -1,6 +1,6 @@
 {
-  "name": "custom-plugin/do-spaces-wp-media-sync",
-  "type": "wordpress-plugin",
+  "name": "conkonig/do-spaces-wp-media-sync",
+  "type": "plugin",
   "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
   "keywords": [
     "aws",
@@ -14,20 +14,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "keeross",
-      "email": "keeross@dolsen.co",
-      "homepage": "https://github.com/keeross"
-    },
-    {
-      "name": "whynowdev",
-      "email": "dev@whynow.co.uk",
-      "homepage": "https://whynow.co.uk/"
+      "name": "conkonig",
+      "email": "connor@whynow.co.uk",
+      "homepage": "https://github.com/conkonig" 
     }
   ],
   "require": {
     "php": ">=5.3.3",
-    "katzgrau/klogger": "^1.2.2", 
-    "league/flysystem-aws-s3-v3": "^1.0",
-    "composer/installers": "^1.0"
+    "katzgrau/klogger": "dev-master",
+    "league/flysystem-aws-s3-v3": "^1.0"
   }
 }
