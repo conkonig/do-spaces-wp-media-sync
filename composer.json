@@ -1,6 +1,6 @@
 {
   "name": "conkonig/do-spaces-wp-media-sync",
-  "type": "plugin",
+  "type": "wordpress-plugin",
   "description": "This WordPress plugin syncs your media library with DigitalOcean Spaces Container.",
   "keywords": [
     "aws",
